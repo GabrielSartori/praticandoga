@@ -1,6 +1,6 @@
 on:
-  scredule:
-    - cron: '0 * * * *'
+  schedule:
+    - cron: '*/5 * * * *'
     
 jobs:
   generate-data:
